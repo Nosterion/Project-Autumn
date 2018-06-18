@@ -1,0 +1,620 @@
+
+/* Big tablet from 1200px to 1365px (optimized for 1200px) */
+@media only screen and (max-width: 1365px) {
+  
+    body { font-size: 18px;}
+    
+    .hero-text-box {
+        padding: 0 0;
+        width: 60%;
+        top: 45%;
+        left: 50%;
+    }
+    
+    h1 {
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: 40px;
+        font-size: 330%;
+        word-spacing: 5px;
+        letter-spacing: 1.5px;
+    }
+    
+    h2 {
+        font-size: 150%;
+        word-spacing: 2px;
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+    }
+    
+    .row {
+        padding: 0 2%;
+    }
+
+    .logo {
+        transform: scale(0.75);
+        margin-left: 4%;
+        margin-top: 1%;
+    }
+    
+    .btn,
+    input[type=submit] {
+        transform: scale(0.9);
+    }
+     
+    .main-nav {
+        margin-top: 23%;
+        margin-left: 3%;
+    }
+
+    .main-nav li {
+        font-size: 90%;
+    }
+    
+    .sticky {
+        height: 11%;
+    }
+    
+    .sticky .main-nav {
+        width: 74%;
+        float: right;
+        margin-top: 2.5%;
+        margin-right: 4%;
+        list-style: none;
+        font-size: 83%;
+    }
+    
+    .sticky .logo {
+        transform: scale(0.45);
+        margin-left: -2%;
+        margin-top: -3.4%;
+    }
+    
+   .autumn_figure img {
+        transform: scale(1.035);
+    }
+    
+    .steps {
+        display: inline-block;
+        width: 100%;
+        margin-top: -2%;
+    }
+    
+    .work-step div {
+        transform: scale(0.8);
+    }
+    
+    cite {
+        font-size: 90%;
+        margin-top: 25px;
+        display: block;
+    }
+
+    cite img {
+        height: 80px;
+        margin-right: 10px;
+        border-radius: 50%;
+        vertical-align: middle;
+        margin-left: 35px;
+    }
+    
+    .footer-nav,
+    .social-links {
+        margin: 0 -50px;
+    }   
+    
+}
+
+/*(optimized for 1024px)*/
+@media only screen and (max-width: 1199px) {
+    
+     body { font-size: 17px;}
+    
+    .hero-text-box {
+        padding: 0 0;
+        width: 60%;
+        top: 45%;
+        left: 50%;
+    }
+    
+    h1 {
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: 40px;
+        font-size: 330%;
+        word-spacing: 5px;
+        letter-spacing: 1.5px;
+    }
+    
+    h2 {
+        font-size: 150%;
+        word-spacing: 2px;
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+    }
+    
+    .row {
+        padding: 0 2%;
+    }
+
+    .logo {
+        transform: scale(0.6);
+        margin-left: 3%;
+        margin-top: 1%;
+    }
+    
+    .btn,
+    input[type=submit] {
+        transform: scale(0.9);
+    }
+     
+    .main-nav {
+        margin-top: 30%;
+        margin-left: 3%;
+    }
+
+    .main-nav li {
+        font-size: 90%;
+    }
+    
+    .sticky {
+        height: 11%;
+    }
+    
+    .sticky .main-nav {
+        width: 80%;
+        float: right;
+        margin-top: 2.5%;
+        margin-right: 4%;
+        margin-left: 0;
+        list-style: none;
+        font-size: 83%;
+    }
+    
+    .sticky .logo {
+        transform: scale(0.44);
+        margin-left: 0;
+        margin-top: -4.2%;
+    }
+    
+   .autumn_figure img {
+        transform: scale(1.035);
+    }
+    
+    .steps {
+        display: inline-block;
+        width: 100%;
+        margin-top: -3%;
+    }
+    
+    .work-step div {
+        transform: scale(0.7);
+    }
+    
+    cite {
+        font-size: 90%;
+        margin-top: 25px;
+        display: block;
+    }
+
+    cite img {
+        height: 80px;
+        margin-right: 10px;
+        border-radius: 50%;
+        vertical-align: middle;
+        margin-left: 35px;
+    }
+    
+    .plan-box p {
+        font-size: 150%;
+    }
+    
+    .footer-nav,
+    .social-links {
+        margin: 0 -70px;
+    }   
+    
+}
+
+/* Small tablet to big tablet: from 768px to 1024px, optimized for 768px)*/
+@media only screen and (max-width: 1023px) {
+   
+    body { font-size: 16px;}
+    
+    .hero-text-box {
+        padding: 0 0;
+        width: 65%;
+        top: 45%;
+        left: 50%;
+    }
+    
+    .hero-text-box a {
+        width: 230px;
+    }
+    
+    .hero-text-box .btn {
+        padding: 10px 10px;
+        margin: 0 -15px;
+    }
+    
+    h1 {
+        font-weight: 400;
+        margin-top: 0;
+        margin-bottom: 40px;
+        font-size: 300%;
+        word-spacing: 5px;
+        letter-spacing: 1.5px;
+    }
+    
+    h2 {
+        font-size: 150%;
+        word-spacing: 2px;
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+    }
+    
+    .row {
+        padding: 0 2%;
+    }
+
+    .logo {
+        transform: scale(0.6);
+        margin-left: 2%;
+        margin-top: 1%;
+    }
+    
+    .btn,
+    input[type=submit] {
+        transform: scale(0.8);
+        font-size: 110%;
+    }
+     
+    .main-nav {
+        margin-top: 40%;
+        margin-left: 1%;
+    }
+
+    .main-nav li {
+        font-size: 90%;
+    }
+    
+    .sticky {
+        height: 11%;
+    }
+    
+    .sticky .main-nav {
+        width: 95%;
+        float: right;
+        margin-top: 2.5%;
+        margin-right: 0;
+        margin-left: -3%;
+        list-style: none;
+        font-size: 80%;
+    }
+    
+    .sticky .main-nav li {
+        margin-right: 0;
+        margin-left: 2%;
+        margin-top: 1.5%;
+    }
+    
+    .sticky .logo {
+        transform: scale(0.44);
+        margin-left: -3.5%;
+        margin-top: -5.4%;
+        margin-right: -10%;
+    }
+   
+    .long-copy {
+        width: 76%;
+        margin-left: 12%;
+        line-height: 135%;
+        text-align:justify;
+    }
+    
+    .box p {
+        font-size: 90%;
+        line-height: 135%;
+        text-align:justify;
+    }
+      
+    .first-big-icons .icon-big {
+        text-align: center;
+        margin-right: 0;
+        width: 25%;
+    }
+    
+   .autumn_figure img {
+        transform: scale(1.045);
+    }
+    
+    .steps {
+        display: inline-block;
+        width: 100%;
+        margin-top: -7%;
+    }
+    
+    .work-step div {
+        transform: scale(0.6);
+    }
+    
+    cite {
+        font-size: 90%;
+        margin-top: 25px;
+        display: block;
+    }
+
+    cite img {
+        height: 70px;
+        margin-right: 10px;
+        border-radius: 50%;
+        vertical-align: middle;
+        margin-left: 35px;
+    }
+    
+    .plan-box p {
+        font-size: 150%;
+    }
+    
+    .footer-nav,
+    .social-links {
+        margin: 0 -80px;
+    }   
+   
+}
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    
+    body { 
+        font-size: 16px;
+    }
+    
+    .hero-text-box {
+        padding: 0 0;
+        width: 75%;
+        top: 65%;
+        left: 36%;
+    }
+    
+    .hero-text-box a {
+        width: 230px;
+    }
+    
+    .hero-text-box .btn {
+        padding: 10px 10px;
+        margin: 0 -15px;
+    }
+    
+    h1 {
+        font-weight: 400;
+        margin-top: 0;
+        margin-bottom: 30px;
+        font-size: 280%;
+        word-spacing: 5px;
+        letter-spacing: 1.5px;
+    }
+    
+    h2 {
+        font-size: 150%;
+        word-spacing: 2px;
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+    }
+    
+    .row {
+        padding: 0 0;
+    }
+
+    .logo {
+        transform: scale(0.6);
+        margin-left: 2%;
+        margin-top: 0;
+    }
+    
+    .btn,
+    input[type=submit] {
+        transform: scale(0.8);
+        font-size: 110%;
+    }
+     
+    .main-nav {
+        display: none;
+        float: left;
+        margin-top: 2%;
+        margin-left: -8%;
+    }
+
+    .main-nav li {
+        display: block;
+        font-size: 80%;
+        margin-bottom: 1%;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+    }
+    
+    .mobile-nav-icon {
+        display: inline-block;
+        margin-right: 10%;
+    }
+    
+    .sticky {
+        height: 11%;
+    }
+    
+    .sticky .main-nav {
+        float: left;
+        margin-top: 2%;
+        margin-left: -35%;
+    }
+    
+    .sticky .main-nav li {
+        display: block;
+        font-size: 80%;
+        margin-bottom: 0;
+    }
+    
+    .sticky .logo {
+        transform: scale(0.44);
+        margin-left: -3.5%;
+        margin-top: -8.4%;
+        margin-right: -10%;
+    }
+   
+    .sticky .mobile-nav-icon {
+        margin-top: 20px;
+    }
+    
+    .comments {
+        opacity: 0.7;
+        margin: 0 5%;
+        margin-top: -1%;
+        margin-bottom: 1%;
+    }
+    
+    .long-copy {
+        width: 76%;
+        margin-left: 12%;
+        line-height: 135%;
+        text-align:justify;
+    }
+    
+    .box p {
+        font-size: 90%;
+        line-height: 135%;
+        text-align:justify;
+    }
+      
+    .first-big-icons .icon-big {
+        text-align: center;
+        margin-right: 0;
+        width: 25%;
+    }
+    
+    .autumn-pictures li {
+        display:block;
+        width: 100%;
+        border: 5px solid #1a1a1a;
+        border-bottom: none;
+    }
+    
+    .autumn-pictures:last-child {
+        border-bottom: 5px solid #1a1a1a;
+    }
+    
+    .autumn_figure img {
+        transform: scale(1.045);
+    }
+    
+    .steps-box:first-child {
+        text-align:center;
+        margin-left: 1.5%;
+    }
+    
+    .steps-box {
+        margin-bottom: -3%;
+    }
+    
+    .steps {
+        display:block;
+        width: 100%;
+        margin-top: 0;
+    }
+    
+    .work-step {
+        margin-bottom: -2%;
+    }
+    
+    .work-step div {
+        transform: scale(0.6);
+        margin-top: -1%;
+        margin-left: 16%;
+    }
+    
+    blockquote {
+        font-size: 90%;
+    }
+    
+    cite {
+        font-size: 90%;
+        margin-top: 25px;
+        display: block;
+    }
+
+    cite img {
+        height: 60px;
+        margin-right: 10px;
+        border-radius: 50%;
+        vertical-align: middle;
+        margin-left: 35px;
+    }
+    
+    .plan-box p {
+        font-size: 150%;
+    }  
+    
+    .contact-form .row {
+        margin-bottom: 10px;
+    }
+    
+    input[type=submit] {
+        margin-top: -30px;
+        margin-bottom: -30px;
+    }
+    
+    .social-links {
+        width: 40%;
+        margin-top: -15px;
+        margin-left: -5px;
+        padding: 0 0;
+    }
+    
+    .footer-nav li {
+        margin-top: 10px;
+        margin-right: 8px;
+        font-size: 90%;
+        word-spacing: 1px;
+    }
+
+    .social-links li {
+        font-size: 75%;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+
+
+}
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
